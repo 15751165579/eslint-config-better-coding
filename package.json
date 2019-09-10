@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-better-coding",
+  "version": "1.0.10",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --recursive"
+  },
+  "author": "descire",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">=0.8.0",
+    "babel-eslint": "^10.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "eslint-plugin-css-modules": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-safe-arguments": "^0.1.1",
+    "mocha": "^6.2.0"
+  }
+}
